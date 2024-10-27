@@ -1,0 +1,53 @@
+.prices {
+  margin-bottom: 50px;
+}
+
+.prices__list {
+  display: flex;
+  justify-content: space-between;
+  gap: var(--gap);
+  margin-top: 40px;
+  flex-wrap: nowrap;
+}
+
+.prices__card {
+  background: var(--light-accent);
+  box-shadow: var(--box-shadow);
+  width: 25%;
+  border-radius: 20px;
+}
+
+.prices__content {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 20px;
+}
+
+.title-month {
+  font-weight: 600;
+  font-size: 20px;
+  color: var(--cyan);
+  margin: 0;
+}
+
+.prices__info {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  align-items: center;
+  gap: var(--gap);
+}
+
+.prices__text {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+
+.prices__price {
+  font-weight: 600;
+  font-size: 16px;
+  color: var(--orange);
+  margin: 0;
+}

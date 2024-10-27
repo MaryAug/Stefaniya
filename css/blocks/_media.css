@@ -1,0 +1,294 @@
+@media (max-width: 1320px) {
+  .prices__list {
+    flex-wrap: wrap;
+  }
+
+  .prices__card {
+    width: 48%;
+  }
+}
+
+@media (max-width: 1010px) {
+  .header__details {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .header__list {
+    gap: 20px;
+  }
+
+  .header__phone-link {
+    font-size: 16px;
+  }
+
+  .title {
+    font-size: 48px;
+  }
+
+  .banner__descr {
+    margin-bottom: 20px;
+  }
+
+  .about {
+    margin-bottom: 80px;
+  }
+
+  .about__content {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .about__img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .about__images {
+    flex-direction: row;
+    grid-column: span 2;
+  }
+
+  .about__img--center {
+    place-self: center;
+    margin-top: initial;
+  }
+
+  .reviews {
+    margin-bottom: 80px;
+  }
+
+  .card__person {
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .footer__map {
+    width: 470px;
+  }
+}
+
+/* @media (max-width: 768px) { */
+@media (max-width: 780px) {
+  .logo {
+    width: 60px;
+    height: 60px;
+  }
+
+  .header__phone-link,
+  .header__btn {
+    display: none;
+  }
+
+  .header__link {
+    font-size: 16px;
+  }
+
+  .header__phone-icon {
+    display: flex;
+  }
+
+  .header__container {
+    gap: var(--gap);
+  }
+
+  .header__btn {
+    display: none;
+  }
+
+  .title {
+    font-size: 40px;
+  }
+
+  .banner__text {
+    font-size: 16px;
+    line-height: 1.4;
+  }
+
+  .banner__descr {
+    width: 269px;
+  }
+
+  .rooms__list {
+    flex-direction: column;
+  }
+
+  .rooms__card {
+    width: 100%;
+  }
+
+  .feedback__wrapper {
+    padding: 40px 20px 40px 0;
+  }
+
+  .feedback__content {
+    width: 300px;
+  }
+
+  .menu__content {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: var(--gap);
+  }
+
+  .menu__images {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .menu__image-block {
+    flex-grow: 1;
+  }
+
+  .reviews {
+    margin-bottom: 60px;
+  }
+
+  .footer__container {
+    flex-direction: column;
+    gap: var(--gap);
+    justify-content: flex-start;
+  }
+
+  .footer__map {
+    width: initial;
+  }
+  /* .menu__images-wrapper {
+    display: flex;
+    justify-content: space-between;
+    gap: var(--gap);
+  } */
+}
+
+/* @media (max-width: 480px) { */
+@media (max-width: 640px) {
+  .header__burger {
+    display: flex;
+    z-index: 51;
+  }
+
+  .header__nav {
+    display: none;
+    flex-direction: column;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    inset: 0;
+    /* top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0; */
+    z-index: 50;
+    overflow-y: auto;
+    padding: 50px 40px;
+    background-color: #fff;
+    animation: burgerAnimation 0.4s;
+  }
+
+  .header__list {
+    flex-direction: column;
+  }
+
+  .header__list ul {
+    flex-direction: column;
+  }
+
+  .banner__container {
+    flex-direction: column-reverse;
+    padding: 0 0 20px 0;
+  }
+
+  .banner__descr,
+  .banner::before {
+    width: 100%;
+  }
+
+  .banner__image {
+    max-width: 100%;
+  }
+
+  .banner__content {
+    max-width: calc(100% - (var(--container-offset) * 2));
+  }
+
+  .title {
+    line-height: 2;
+  }
+
+  .benefits__item {
+    flex: 1 1 150px;
+  }
+
+  .prices__list {
+    flex-direction: column;
+  }
+
+  .prices__card {
+    width: initial;
+    flex-grow: 1;
+  }
+
+  .feedback::before {
+    width: 100%;
+  }
+
+  .feedback__wrapper {
+    flex-direction: column;
+    padding: 0 0 20px 0;
+  }
+
+  .form__image {
+    max-width: 100%;
+  }
+
+  .feedback__content,
+  .form {
+    width: 310px;
+  }
+
+  .about {
+    margin-bottom: 60px;
+  }
+
+  .about__content {
+    grid-template-columns: 1fr;
+  }
+  .about__descr {
+    grid-column: 1;
+    grid-row: 2;
+  }
+
+  .about__img--center {
+    grid-column: 1;
+    grid-row: 1;
+    margin-top: 40px;
+  }
+
+  .about__images {
+    flex-direction: column;
+    grid-column: 1;
+    grid-row: 3;
+  }
+
+  /* .about__img {
+    width: 100%;
+  } */
+}
+
+@media (max-width: 360px) {
+  .title {
+    font-size: 40px;
+  }
+
+  .title-small {
+    font-size: 20px;
+  }
+
+  .price {
+    font-size: 20px;
+  }
+
+  .reviews {
+    margin-bottom: 60px;
+  }
+}

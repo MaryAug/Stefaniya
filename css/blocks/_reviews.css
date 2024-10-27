@@ -1,0 +1,82 @@
+.reviews {
+  margin-bottom: 100px;
+}
+
+.reviews__swiper {
+  margin-bottom: -50px;
+}
+
+.reviews__swiper-wrapper {
+  padding-bottom: 50px;
+}
+
+.reviews__top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+.card-button {
+}
+
+.reviews__list {
+  /* user-select: none; */
+  /* grid-template-columns: 1fr 1fr 1fr; */
+  /* display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: var(--gap);
+  min-width: 0; */
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: var(--box-shadow);
+  box-sizing: border-box;
+  background: var(--light-accent);
+  gap: var(--gap);
+  /* flex-shrink: 1; */
+  /* user-select: none; */
+}
+
+.card__top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.reviews-btn__prev {
+  margin-right: 20px;
+}
+
+.card__person {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.reviews__avatar {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+}
+
+.reviews__name {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.25;
+}
+
+.icon {
+  max-width: 40px;
+}
+
+.review__text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.4;
+}

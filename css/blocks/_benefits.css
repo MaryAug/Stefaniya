@@ -1,0 +1,35 @@
+.benefits {
+  margin-bottom: 100px;
+}
+
+.benefits__list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: var(--gap);
+}
+
+.benefits__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 32px;
+  box-shadow: var(--box-shadow);
+  padding: 40px 20px;
+  gap: var(--gap);
+  width: 100%;
+  flex: 1 1 225px;
+}
+
+.benefits__text {
+  margin: 0;
+  font-family: var(--font-family);
+  font-size: 16px;
+  color: var(--black);
+  text-align: center;
+}
+
+.benefits__img {
+  max-width: 100%;
+  display: block;
+}
