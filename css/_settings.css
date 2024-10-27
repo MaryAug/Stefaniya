@@ -1,0 +1,70 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.page {
+}
+
+.page__body {
+  font-family: var(--font-family);
+  color: var(--black);
+  background-color: var(--bg);
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 var(--container-offset);
+  max-width: calc(var(--container-width) + (var(--container-offset) * 2));
+}
+
+.logo {
+  width: 80px;
+  height: 80px;
+}
+
+.list-reset {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.btn-reset {
+  border: none;
+  padding: 0;
+  background: transparent;
+  cursor: pointer;
+}
+
+.text {
+  font-weight: 400;
+  font-size: 16px;
+  margin: 0;
+  line-height: 20px;
+}
+
+.text-tag {
+  font-weight: 400;
+  font-size: 14px;
+  margin: 0;
+}
+
+.text-s {
+  font-weight: 300;
+  font-size: 14px;
+  color: var(--black);
+  margin: 0;
+}
+
+.title-medium {
+  margin: 0;
+  font-weight: 600;
+  font-size: 36px;
+}
+
+.title-small {
+  margin: 0;
+  font-weight: 500;
+  font-size: 24px;
+}
