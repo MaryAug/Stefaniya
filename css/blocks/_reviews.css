@@ -21,13 +21,6 @@
 }
 
 .reviews__list {
-  /* user-select: none; */
-  /* grid-template-columns: 1fr 1fr 1fr; */
-  /* display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  gap: var(--gap);
-  min-width: 0; */
 }
 
 .card {
@@ -39,8 +32,6 @@
   box-sizing: border-box;
   background: var(--light-accent);
   gap: var(--gap);
-  /* flex-shrink: 1; */
-  /* user-select: none; */
 }
 
 .card__top {

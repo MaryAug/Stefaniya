@@ -44,9 +44,7 @@
 .header__burger::before {
   top: 3px;
 }
-/* Анимация иконки бургера */
 .header__burger.active span {
-  /* Убирает среднюю полоску, в то время как остальные две будут развернуты */
   transform: scale(0);
 }
 

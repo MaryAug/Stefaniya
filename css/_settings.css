@@ -4,10 +4,7 @@
   box-sizing: border-box;
 }
 
-.page {
-}
-
-.page__body {
+body {
   font-family: var(--font-family);
   color: var(--black);
   background-color: var(--bg);

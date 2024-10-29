@@ -28,13 +28,11 @@
 
 .banner__content {
   box-sizing: border-box;
-  /* padding-left: max(20px, calc((100% - var(--container-width)) / 2)); */
 }
 
 .title {
   font-family: var(--second-family);
   color: var(--orange);
-  /* font-style: italic; */
   font-size: 72px;
   line-height: 2;
   font-weight: 500;
