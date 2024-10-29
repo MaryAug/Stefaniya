@@ -1,23 +1,21 @@
 
-@import url("_normalize.css");
-@import url(../css/_vars.css");
-@import url("_settings.css");
-@import url("_fonts.css");
+@import url("normalize.css");
+@import url("vars.css");
+@import url("settings.css");
+@import url("fonts.css");
+@import url("blocks/header.css");
+@import url("blocks/grid.css");
+@import url("blocks/banner.css");
+@import url("blocks/benefits.css");
+/* @import url("blocks/rooms.css"); */
+@import url("blocks/prices.css");
+@import url("blocks/form.css");
+@import url("blocks/about.css");
+@import url("blocks/menu.css");
+@import url("blocks/reviews.css");
+@import url("blocks/btn.css");
+@import url("blocks/footer.css");
+@import url("blocks/media.css");
+@import url("blocks/keyframes.css");
 
-@import url("blocks/_header.css");
-@import url("blocks/_grid.css");
-@import url("blocks/_banner.css");
-@import url("blocks/_benefits.css");
-@import url("blocks/_rooms.css");
-@import url("blocks/_prices.css");
-@import url("blocks/_form.css");
-@import url("blocks/_about.css");
-@import url("blocks/_menu.css");
-@import url("blocks/_reviews.css");
-@import url("blocks/_btn.css");
-@import url("../css/blocks/footer.css);
-@import url("css/blocks/footer.css");
-
-@import url("css/blocks/media.css");
-
-@import url(css/blocks/_keyframes.css);
+@import "block/rooms.css";
