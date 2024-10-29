@@ -7,7 +7,7 @@
 @import url("blocks/grid.css");
 @import url("blocks/banner.css");
 @import url("blocks/benefits.css");
-/* @import url("blocks/rooms.css"); */
+@import url("blocks/rooms.css");
 @import url("blocks/prices.css");
 @import url("blocks/form.css");
 @import url("blocks/about.css");
@@ -17,5 +17,3 @@
 @import url("blocks/footer.css");
 @import url("blocks/media.css");
 @import url("blocks/keyframes.css");
-
-@import "block/rooms.css";
